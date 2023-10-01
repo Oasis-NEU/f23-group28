@@ -10,8 +10,11 @@ function App() {
         <p>
           Enter your username, or enter a new one.
         </p>
-        <input type="text" name="UsernameInput" size={60} required></input>
+        <input type="text" name="UsernameInput" size={30} required></input>
         <button type="button" name="test">Enter Your Garden</button>
+        <p>
+          Invalid username.
+        </p>
       </header>
     </div>
   );
