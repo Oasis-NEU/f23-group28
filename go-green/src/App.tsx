@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 function App() {
 
 
-  const [tasks, setTasks] = useState([]);
+  const [tasks, setTasks] = useState<any[]>([]);
 
   useEffect(() => {
       // our fetch function
@@ -18,7 +18,7 @@ function App() {
               const usedIndexes = [];
               while (tasksSubset.length < 5) {
                   const randomIndex = Math.floor(Math.random() * data.length);
-                  if (usedIndexes.indexOf(randomIndex) == -1) {
+                  if (usedIndexes.indexOf(randomIndex) === -1) {
                       tasksSubset.push(data[randomIndex]);
                       usedIndexes.push(randomIndex);
                   }
@@ -52,8 +52,7 @@ function App() {
 
   //return <p>App</p>;
 
-
-  /*
+          /*    
   return (
     <div className="App">
       <header className="App-header">
