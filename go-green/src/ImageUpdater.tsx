@@ -8,7 +8,7 @@ const ImageUpdater = () => {
   const [points, setPoints] = useState(0);
 
   function incrementPoints() {
-    setPoints(points + 1);
+    setPoints(points + 5);
   }
 
   return (
@@ -17,7 +17,7 @@ const ImageUpdater = () => {
     
   {
       points >= 5 && 
-      <img id="flower1" src="https://images.fineartamerica.com/images-medium-large-5/daisies-on-white-background-elena-elisseeva.jpg" width="149.5" height="225" />
+      <img id="flower1" src="https://images.fineartamerica.com/images-medium-large-5/daisies-on-white-background-elena-elisseeva.jpg" width="133" height="200" />
     }
 
   {
@@ -32,7 +32,7 @@ const ImageUpdater = () => {
 
 {
       points >= 20 && 
-      <img id="flower4" src="https://static.vecteezy.com/system/resources/previews/002/628/137/non_2x/realistic-3d-tulip-flower-isolated-on-white-background-free-vector.jpg" width= "200" height= "198"></img>
+      <img id="flower4" src="https://assets.wfcdn.com/im/47709872/resize-h445%5Ecompr-r85/2430/243040663/Tulips+On+Canvas+Print.jpg" width= "133" height= "200"></img>
     }
 
 {
@@ -42,8 +42,29 @@ const ImageUpdater = () => {
 
 {
       points >= 30 && 
-      <img id="flower6" src="https://thumbs.dreamstime.com/b/sunflower-isolated-white-background-beautiful-72446045.jpg" width= "200" height= "200"></img>
+      <img id="flower6" src="https://img.freepik.com/premium-photo/flower-sunflower-isolated-white-background-seeds-oil-flat-lay-top-view_252173-120.jpg?w=360" width= "133" height= "200"></img>
     }
+
+{
+      points >= 35 && 
+      <img id="flower7" src="https://cdn.create.vista.com/api/media/small/394222146/stock-photo-beautiful-red-carnation-flowers-isolated-white-background" width= "200" height= "200"></img>
+    }
+
+{
+      points >= 40 && 
+      <img id="flower8" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/beautiful-wild-poppy-on-white-digihelion.jpg" width= "134" height= "200"></img>
+    }
+
+{
+      points >= 45 && 
+      <img id="flower9" src="https://bloomingbulb.com/cdn/shop/products/OrangeSovereignAmaryllis_ca9d3737-53e4-4f0b-b13a-d2f455330dbe_1024x.jpg?v=1621018105" width= "154" height= "195"></img>
+    }
+
+{
+      points >= 50 && 
+      <img id="flower10" src="https://img.freepik.com/premium-photo/white-daffodil-isolated-white-background_146936-1860.jpg?w=2000" width= "142" height= "200"></img>
+    }
+
 
   
     
