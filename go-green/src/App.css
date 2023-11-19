@@ -27,10 +27,23 @@
 .App-button {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  background-color: #422900;
+  width: 200px;
+  height: calc(10px + 3vmin);
+  font-size: calc(10px + 1vmin);
+}
+
+.App-textfield {
+  width: 300px;
+  height: calc(10px + 2vmin) + 20px;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: #006400
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
